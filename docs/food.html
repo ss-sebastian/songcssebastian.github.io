@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>food – Chuqiao (Sebastian) Song</title>
+<title>Food – Chuqiao (Sebastian) Song</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -125,15 +125,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#food-gallery" id="toc-food-gallery" class="nav-link active" data-scroll-target="#food-gallery">Food Gallery</a>
+  <ul class="collapse">
+  <li><a href="#caprese-salad" id="toc-caprese-salad" class="nav-link" data-scroll-target="#caprese-salad">Caprese Salad</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ss-sebastian/sebastian_song_personal_page.github.io/edit/main/food.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ss-sebastian/sebastian_song_personal_page.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">food</h1>
+<h1 class="title">Food</h1>
 </div>
 
 
@@ -150,8 +159,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="food-gallery" class="level1">
+<h1>Food Gallery</h1>
+<section id="caprese-salad" class="level2">
+<h2 class="anchored" data-anchor-id="caprese-salad">Caprese Salad</h2>
+<p><strong>Time:</strong> Nov.&nbsp;26, 2025 <strong>Place:</strong> Donostia-San Sebastián, Spain</p>
+<div class="slider">
+<p><img src="./food/image/tarta_de_queso_1.jpg" alt="matcha cheese cake 1" class="slide"> <img src="./food/image/tarta_de_queso_2.jpg" alt="matcha cheese cake 2" class="slide"> <!-- Add more images as needed --></p>
+</div>
+<style>
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .active {
+    display: block;
+  }
+</style>
+<script>
+  let slideIndex = 0;
+
+  function showSlides() {
+    let slides = document.querySelectorAll('.slide');
+    slides.forEach((slide, index) => {
+      slide.style.display = 'none';  // Hide all images
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex - 1].style.display = 'block';  // Show the current image
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+  }
+  showSlides();
+</script>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -562,7 +614,7 @@ ul.task-list li input[type="checkbox"] {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/ss-sebastian/sebastian_song_personal_page.github.io/edit/main/food.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ss-sebastian/sebastian_song_personal_page.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ss-sebastian/sebastian_song_personal_page.github.io/edit/main/food.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/ss-sebastian/sebastian_song_personal_page.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a><br></p>
 </div>

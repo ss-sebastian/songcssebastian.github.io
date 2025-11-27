@@ -1,10 +1,54 @@
 ---
-title: "food"
+title: "Food"
 editor: 
   markdown: 
     wrap: 72
 ---
 
+# Food Gallery
 
+## Caprese Salad
 
+**Time:** Nov. 26, 2025 
+**Place:** Donostia-San Sebastián, Spain
 
+<div class="slider">
+  <img src="/food/image/tarta_de_queso_1.jpg" alt="matcha cheese cake 1" class="slide">
+  <img src="/food/image/tarta_de_queso_2.jpg" alt="matcha cheese cake 2" class="slide">
+  <!-- Add more images as needed -->
+</div>
+
+<style>
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .active {
+    display: block;
+  }
+</style>
+
+<script>
+  let slideIndex = 0;
+
+  function showSlides() {
+    let slides = document.querySelectorAll('.slide');
+    slides.forEach((slide, index) => {
+      slide.style.display = 'none';  // Hide all images
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex - 1].style.display = 'block';  // Show the current image
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+  }
+  showSlides();
+</script>
