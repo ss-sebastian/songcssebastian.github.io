@@ -24,14 +24,12 @@ website:
         href: index.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Books"
-        href: books.qmd
+      - text: "Food & Cooking"
+        href: food.qmd
       - text: "Blogs"
         href: blog.qmd
       - text: "Codes"
         href: codes.qmd
-      - text: "中文"
-        href: Chinese.qmd
       - text: "CV"
         href: CV_Chuqiao_SONG_Final.pdf
 
