@@ -7,9 +7,9 @@ editor:
 
 # Food Gallery
 
-## Caprese Salad
+## Matcha Cheese Cake
 
-**Time:** Nov. 26, 2025 
+**Time:** Nov. 26, 2025 <br>
 **Place:** Donostia-San Sebastián, Spain
 
 <div class="slider">
