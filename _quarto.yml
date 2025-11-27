@@ -4,20 +4,20 @@ project:
   
 website:
   page-navigation: true
-  title: "Yujun Lian"
-  site-url: https://lianyujun.github.io
-  favicon: images/site-logo.png
-  repo-url: https://github.com/lianyujun/lianyujun.github.io
+  title: "Chuqiao (Sebastian) Song"
+  site-url: https://songcssebastian.github.io
+  favicon: images/IMEG_1309.HEIC
+  repo-url: https://github.com/ss-sebastian/sebastian_song_personal_page.github.io
   repo-actions: [edit, issue]
   
   page-footer:
     left: |
-      [lianxh.cn](https://www.lianxh.cn)<br>
+
     right: |
       Made with [Quarto](https://quarto.org/)<br>
     
   navbar: 
-    background: "#A9CCE3"
+    background: "#5249CC"
     search: true
     right: 
       - text: "Home"
@@ -33,7 +33,7 @@ website:
       - text: "中文"
         href: Chinese.qmd
       - text: "CV"
-        href: CV.pdf
+        href: CV_Chuqiao_SONG_Final.pdf
 
 format:
   html:
