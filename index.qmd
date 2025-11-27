@@ -4,7 +4,7 @@ image: images/IMG_1309.png
 about:
   id: hero-heading
   template: trestles
-  image-width: 12em
+  image-width: 6em
   image-shape: round
   links:
     - icon: mailbox
