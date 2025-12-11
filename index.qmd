@@ -1,6 +1,6 @@
 ---
 title: 'Chuqiao (Sebastian) Song'
-image: images/IMG_1309.png
+image: images/IMG_1309.jpeg
 about:
   id: hero-heading
   template: trestles
