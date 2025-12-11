@@ -1,6 +1,6 @@
 ---
-title: 'Chuqiao (Sebastian) Song'
-image: images/IMG_1309.jpeg
+title: "Chuqiao (Sebastian) Song"
+image: images/IMG_1309.jpg   # Make sure it exists!
 about:
   id: hero-heading
   template: trestles
@@ -23,10 +23,3 @@ about:
       text: CV
       href: CV_Chuqiao_SONG_Final.pdf  
 ---
-
-::: {#hero-heading}
-
-
-
-
-:::
