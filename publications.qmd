@@ -14,4 +14,4 @@ Song, C., Chen, H., Gao, F., Qian, H., Geng, L., & Ye, X. (2025). *L2 conditiona
 **International Journal of Multilingualism**, 1–19.\
 <https://doi.org/10.1080/14790718.2025.2600536>
 
-[📄 Download PDF](docs/publications/L2_primes_L3.pdf)
+[📄 Download PDF](publications/L2_primes_L3.pdf)
