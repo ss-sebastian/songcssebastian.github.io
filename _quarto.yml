@@ -7,7 +7,7 @@ website:
   title: "Chuqiao (Sebastian) Song"
   site-url: https://songcssebastian.github.io
   favicon: images/IMEG_1309.png
-  repo-url: https://github.com/ss-sebastian/sebastian_song_personal_page.github.io
+  repo-url: https://github.com/ss-sebastian/songcssebastian.github.io
   repo-actions: [edit, issue]
   
   page-footer:
@@ -17,19 +17,25 @@ website:
       Made with [Quarto](https://quarto.org/)<br>
     
   navbar: 
-    background: "#5249CC"
+    background: "#fffdf8"
     search: true
     right: 
       - text: "Home"
         href: index.qmd
+      - text: "About"
+        href: about.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Food & Cooking"
-        href: food.qmd
-      - text: "Blogs"
+      - text: "Research Notes"
         href: blog.qmd
       - text: "Codes"
         href: codes.qmd
+      - text: "Teaching"
+        href: Teaching.md
+      - text: "中文"
+        href: Chinese.qmd
+      - text: "Food"
+        href: food.qmd
       - text: "CV"
         href: CV_Chuqiao_SONG_Final.pdf
 

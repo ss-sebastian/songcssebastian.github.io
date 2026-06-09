@@ -1,5 +1,88 @@
 ---
 title: "About"
+toc: false
 ---
 
-连玉君的个人主页
+::: {.page-hero}
+## About Me
+
+I am Chuqiao Song, also using the name Sebastian Song. I am a master's student interested in **computational modelling of language, behaviour, and brain data**, with current work spanning behavioural benchmarking, multilingual semantic representation, and neural modelling.
+:::
+
+::: {.grid-two}
+::: {.panel-card}
+### Research Orientation
+
+My work sits at the intersection of **language, cognition, and neuroimaging**. I am especially interested in using computational models to ask cognitively meaningful questions: whether models capture participant-level behavioural variation, how internal representations are structured across languages, and how model dynamics relate to brain responses.
+:::
+
+::: {.panel-card}
+### Methodological Focus
+
+- Behavioural modelling and response-time analysis
+- Representational similarity analysis
+- RNN and LLM modelling
+- Model comparison and human-model alignment
+- Reproducible workflows in Python and R
+:::
+:::
+
+## Current Research Directions
+
+::: {.feature-grid}
+::: {.feature-card}
+### Benchmarking
+
+Developing evaluation pipelines that test whether computational models explain human behavioural data beyond task-level accuracy.
+:::
+
+::: {.feature-card}
+### LLM RSA
+
+Using multilingual language models as computational models of semantic representation and testing their alignment with cross-linguistic structure.
+:::
+
+::: {.feature-card}
+### RNN Modelling
+
+Building recurrent models for auditory sequence perception, trial-level RT prediction, and neural alignment with fMRI data.
+:::
+:::
+
+## Academic Interests
+
+::: {.interest-list}
+- Computational modelling of language and cognition
+- Human-AI alignment in behaviour and neural representation
+- Multilingual semantic structure
+- Behavioural and fMRI model fitting
+- Sequence processing and predictive coding
+:::
+
+## Links
+
+::: {.tool-grid}
+::: {.tool-card}
+### Email
+
+[songchuqiao23@gmail.com](mailto:songchuqiao23@gmail.com)
+:::
+
+::: {.tool-card}
+### Scholar
+
+[Google Scholar](https://scholar.google.com/citations?user=WkLFQc0AAAAJ&hl=en)
+:::
+
+::: {.tool-card}
+### ORCID
+
+[0009-0003-3289-8548](https://orcid.org/0009-0003-3289-8548)
+:::
+
+::: {.tool-card}
+### CV
+
+[Download CV](CV_Chuqiao_SONG_Final.pdf)
+:::
+:::

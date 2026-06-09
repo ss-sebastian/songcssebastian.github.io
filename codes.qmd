@@ -1,7 +1,63 @@
 ---
 title: "Codes"
-editor: 
-  markdown: 
-    wrap: 72
+toc: false
 ---
 
+::: {.page-hero}
+## Code and Research Repositories
+
+This page highlights the kinds of repositories I am building around computational modelling, behavioural analysis, and reproducible research workflows.
+:::
+
+## Repository Directions
+
+::: {.feature-grid}
+::: {.feature-card}
+### Human-Model Benchmarking
+
+Pipelines for participant-level evaluation, response-time prediction, trial-level variance analysis, and comparison with behavioural baselines.
+:::
+
+::: {.feature-card}
+### Multilingual LLM RSA
+
+Code for extracting layer-wise representations, computing similarity structure, and comparing semantic geometry across languages and models.
+:::
+
+::: {.feature-card}
+### RNN Brain-Behaviour Modelling
+
+Model training, hidden-state analysis, RT readout modules, and neural alignment workflows for sequence-based tasks.
+:::
+:::
+
+## Tools and Workflow
+
+::: {.grid-two}
+::: {.panel-card}
+### Core Stack
+
+- Python, R
+- PyTorch, Transformers, scikit-learn
+- pandas, NumPy, SciPy, statsmodels
+- Jupyter, Git, Quarto
+:::
+
+::: {.panel-card}
+### Planned Repository Structure
+
+- Reproducible data preprocessing
+- Analysis notebooks and scripts
+- Clear experiment configuration
+- Figures and model-comparison outputs
+:::
+:::
+
+## Suggested Public Repositories
+
+::: {.interest-list}
+- `human-model-benchmarking`
+- `multilingual-llm-rsa`
+- `rnn-brain-behaviour-modelling`
+- `behavioural-modelling-utils`
+:::

@@ -1,17 +1,42 @@
 ---
 title: "Publications"
-editor: visual
+toc: false
 ---
 
----
-title: "Publications"
-editor: visual
----
+::: {.page-hero}
+## Publications and Work in Progress
 
-### Publications
+This page collects selected publications and current research directions. As my computational modelling work develops, I will expand this section with posters, preprints, and thesis-related outputs.
+:::
 
-Song, C., Chen, H., Gao, F., Qian, H., Geng, L., & Ye, X. (2025). *L2 conditionally facilitates L3 word recognition among Chinese-English-Spanish trilinguals*.\
-**International Journal of Multilingualism**, 1–19.\
-<https://doi.org/10.1080/14790718.2025.2600536>
+## Selected Publication
 
-[📄 Download PDF](publications/L2_primes_L3.pdf)
+::: {.panel-card .publication-card}
+### Journal Article
+
+**Song, C., Chen, H., Gao, F., Qian, H., Geng, L., & Ye, X. (2025).**  
+*L2 conditionally facilitates L3 word recognition among Chinese-English-Spanish trilinguals.*  
+_International Journal of Multilingualism_, 1-19.  
+[DOI](https://doi.org/10.1080/14790718.2025.2600536) · [PDF](publications/L2_primes_L3.pdf)
+:::
+
+## In Progress
+
+::: {.grid-two}
+::: {.panel-card}
+### Modelling Projects
+
+- Benchmarking human-model alignment in behavioural tasks
+- LLM RSA for multilingual semantic representation
+- RNN modelling of behavioural and fMRI responses
+:::
+
+::: {.panel-card}
+### To Add
+
+- Master's thesis
+- Conference posters
+- Preprints and working papers
+- Project reports or reproducible analysis repositories
+:::
+:::

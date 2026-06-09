@@ -1,150 +1,270 @@
 /*-- scss:defaults --*/
 
-/* 主题颜色定义 */
-$theme-black: #4c4c4c;
-$theme-white: white;
-$theme-grey: #e9ecef;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;600&display=swap');
 
-$theme-purple3: #88398A;
-$theme-purple4: #9d709e;
-$theme-purple5: #562457;
-$theme-purplebrown1: #b996a4;
-$theme-purplebrown2: #7c6c84;
-$theme-darkcoffee1: #570e06;
-$theme-darkcoffee2: #78504b;
-$theme-darkcoffee3: #632e0d;
-$theme-milkcoffee0: #f2ece3;
-$theme-milkcoffee3: #cca79f;
-$theme-milkcoffee2: #b98f68;
-$theme-milkcoffee1: #9e736a;
-$theme-mocha1: #7f2606;
-$theme-mocha2: #9a4c28;
-$theme-mocha3: #b46939;
-$theme-orange: #f9af11;
-$theme-pumpkin: #d05808;
-$theme-darkgreen1: #355E3B;
-$theme-darkgreen2: #445740;
+$ink-900: #1d2430;
+$ink-700: #485367;
+$ink-500: #6c788c;
+$line: #d8deea;
+$paper: #fffdf8;
+$mist: #f6f4ee;
+$sand: #efe7d8;
+$accent: #1f5c4c;
+$accent-soft: #dcebe5;
+$accent-deep: #143e34;
+$gold: #b9872f;
 
-/* 新增红色变量定义 */
-$red: #ff0000; /* 定义红色变量 */
-$blue: #0000ff;  /* 定义蓝色变量 */
-
-/* 主要背景和字体颜色 */
-$body-bg: $theme-white;
-$body-color: $theme-darkcoffee1; /* 正文字体颜色 */
-$headings-color: $theme-milkcoffee2; /* 标题字体颜色 */
-$link-color: $red; /* 默认超链接颜色 */
-
-/* 代码样式 */
-$code-color: $theme-mocha2; /* 代码文本颜色 */
-$code-bg: $theme-milkcoffee0; /* 代码背景颜色 */
-$code-block-bg-alpha: -0.8; /* 代码块背景的透明度 */
-$background-color: $theme-milkcoffee0; /* 页面背景色 */
-
-/* 导航栏 */
-$navbar-bg: $theme-darkgreen1; /* 导航栏背景颜色 */
-
-/* 提示框颜色 */
-$callout-color-note: $theme-darkgreen2; /* 提示框的注释颜色 */
-$callout-color-tip: $theme-darkgreen1; /* 提示框的小贴士颜色 */
-
-/* 字体设置 */
-@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code_Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Yanone+Kaffeesatz&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
-
-$font-family-sans-serif: 'Lato', sans-serif; /* 无衬线字体 */
-$font-family-monospace: 'Source Code Pro', monospace; /* 等宽字体 */
-$font-poppins: 'Poppins', sans-serif; 
-$font-pt: 'PT Serif', sans-serif;
-$font-cabin: 'Cabin', sans-serif;
-$font-montserrat: 'Montserrat', sans-serif;
-$font-prompt: 'Prompt', sans-serif;
-
-$font-size-root: 16px; /* 根字体大小 */
-
-/* 链接颜色 */
-$link-color: $red; /* 链接的颜色为红色 */
-$link-hover-color: $blue; /* 链接悬停时的颜色 */
+$body-bg: $paper;
+$body-color: $ink-900;
+$headings-color: $ink-900;
+$navbar-bg: rgba(255, 253, 248, 0.9);
+$navbar-fg: $ink-900;
+$navbar-hl: $accent;
+$link-color: $accent;
+$link-hover-color: $accent-deep;
+$code-color: $accent-deep;
+$code-bg: #eef3ef;
+$font-family-sans-serif: 'Manrope', sans-serif;
+$font-family-monospace: 'JetBrains Mono', monospace;
+$font-size-root: 17px;
 
 /*-- scss:rules --*/
 
-/* 1. 正文行间距和字体颜色调整 */
+:root {
+  --page-gradient: radial-gradient(circle at top left, rgba(185, 135, 47, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(31, 92, 76, 0.12), transparent 24%),
+    linear-gradient(180deg, #fffdf8 0%, #f7f3ea 100%);
+  --shadow-soft: 0 18px 50px rgba(29, 36, 48, 0.08);
+  --shadow-card: 0 14px 32px rgba(29, 36, 48, 0.07);
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+}
+
 body {
-  line-height: 1.7; /* 正文的行间距设置为 1.7 */
-  color: #000000; /* 正文字体颜色为黑色 */
+  line-height: 1.72;
+  color: $ink-900;
+  background: var(--page-gradient);
 }
 
-/* 2. 列表项的行间距调整 */
-ul, ol {
-  line-height: 1.7; /* 列表项的行间距设置为 1.7 */
+.quarto-title-banner,
+#quarto-content,
+main.content,
+.page-columns,
+.page-layout-article {
+  background: transparent;
 }
 
-/* 3. 超链接颜色和悬停颜色调整 */
-a {
-  color: #0066cc; /* 超链接的颜色设置为蓝色 */
-  text-decoration: none; /* 去除默认的下划线 */
+h1, h2, h3, h4 {
+  font-family: 'Source Serif 4', serif;
+  letter-spacing: -0.02em;
 }
 
-a:hover {
-  color: #006400; /* 悬停时的颜色设置为深绿色 */
-}
-
-/* 4. 代码样式高亮调整，背景为浅灰色，github 风格 */
-code {
-  color: #d63384; /* 代码文本的颜色，使用 GitHub 风格的红色 */
-  background-color: #f5f5f5; /* 代码块的背景色为浅灰色 */
-  padding: 2px 4px; /* 增加内边距，使代码更加突出 */
-  border-radius: 3px; /* 为代码块添加圆角 */
-  font-family: Consolas, 'Courier New', monospace; /* 设置字体为等宽字体 */
-}
-
-/* 标题样式 */
 h1 {
-  color: $theme-darkcoffee3;
-  font-family: $font-pt;
-  font-size: 40px;
+  font-size: clamp(2.5rem, 4vw, 3.8rem);
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-  color: $theme-darkcoffee3;
-  font-family: $font-pt;
-  font-size: 30px;
+  font-size: clamp(1.7rem, 2.3vw, 2.3rem);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
-h3, h4 {
-  color: $theme-mocha1;
-  font-family: $font-pt;
+h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.7rem;
 }
 
-h4 {
-  color: $theme-darkgreen1;
+p, li {
+  color: $ink-700;
 }
 
-/* 代码块和推送样式 */
-.render-commit-push {
-  padding: 0.5em 0.5em 0em 3em;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background: #f8f8f8 5px center/3em no-repeat;
-  border-top: 1px solid #5B888C;
-  border-bottom: 1px solid #5B888C;
-  background-size: 2em;
-  background-position: 0.5em 0.5em;
+a {
+  text-decoration: none;
+  transition: color 160ms ease, opacity 160ms ease;
 }
 
-.pull {
-  padding: 0.5em 0.5em 0em 3em;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background: #f8f8f8 5px center/3em no-repeat;
-  border-top: 1px solid #E0A890;
-  border-bottom: 1px solid #E0A890;
-  background-size: 1em;
-  background-position: 1em 0.5em;
+a:hover {
+  color: $accent-deep;
+}
+
+code {
+  padding: 0.16rem 0.42rem;
+  border-radius: 999px;
+  font-size: 0.92em;
+}
+
+.navbar {
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(216, 222, 234, 0.7);
+  box-shadow: 0 8px 20px rgba(29, 36, 48, 0.04);
+}
+
+.navbar-title,
+.nav-link,
+.menu-text {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+#title-block-header {
+  margin-bottom: 1.5rem;
+}
+
+.quarto-about-trestles {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(247, 243, 234, 0.88));
+  border: 1px solid rgba(216, 222, 234, 0.9);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-soft);
+  padding: 2rem 2rem 1.6rem;
+}
+
+.quarto-about-trestles .about-image {
+  border: 4px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 14px 28px rgba(29, 36, 48, 0.14);
+}
+
+.quarto-about-trestles .about-title {
+  font-family: 'Source Serif 4', serif;
+  font-size: clamp(2.4rem, 4vw, 3.7rem);
+  line-height: 1.05;
+}
+
+.quarto-about-trestles .about-description {
+  margin-top: 0.4rem;
+  font-size: 0.96rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $gold;
+  font-weight: 700;
+}
+
+.quarto-about-trestles .about-links {
+  margin-top: 1.25rem;
+}
+
+.quarto-about-trestles .about-link {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(216, 222, 234, 0.85);
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
+  margin: 0.35rem 0.45rem 0 0;
+}
+
+.hero-intro {
+  max-width: 52rem;
+  font-size: 1.12rem;
+  color: $ink-700;
+  margin: 1rem 0 1.75rem;
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-bottom: 2.5rem;
+}
+
+.pill-row code {
+  background: rgba(220, 235, 229, 0.85);
+  color: $accent-deep;
+  border: 1px solid rgba(31, 92, 76, 0.12);
+  font-weight: 600;
+}
+
+.grid-two,
+.feature-grid,
+.tool-grid {
+  display: grid;
+  gap: 1.15rem;
+  margin: 1.2rem 0 0.4rem;
+}
+
+.grid-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.feature-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.tool-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.panel-card,
+.feature-card,
+.tool-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(216, 222, 234, 0.95);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.panel-card,
+.feature-card {
+  padding: 1.35rem 1.4rem 1.15rem;
+}
+
+.tool-card {
+  padding: 1.15rem 1.1rem 1rem;
+  min-height: 100%;
+}
+
+.feature-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, $accent, $gold);
+}
+
+.interest-list ul {
+  columns: 2;
+  column-gap: 2rem;
+  padding-left: 1.2rem;
+}
+
+.publication-card p:last-child {
+  margin-bottom: 0;
+}
+
+.page-footer {
+  border-top: 1px solid rgba(216, 222, 234, 0.8);
+  background: rgba(255, 253, 248, 0.75);
+  backdrop-filter: blur(10px);
+}
+
+@media (max-width: 991px) {
+  .grid-two,
+  .feature-grid,
+  .tool-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .interest-list ul {
+    columns: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+
+  .quarto-about-trestles {
+    padding: 1.4rem 1rem 1.2rem;
+    border-radius: 22px;
+  }
+
+  .hero-intro {
+    font-size: 1rem;
+  }
 }

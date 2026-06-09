@@ -1,10 +1,12 @@
 ---
 title: "Chuqiao (Sebastian) Song"
-image: images/IMG_1309.jpg   # Make sure it exists!
+description: "Master's student | Computational modelling of language, behaviour, and brain data"
+image: images/IMG_1309.jpg
+toc: false
 about:
   id: hero-heading
   template: trestles
-  image-width: 6em
+  image-width: 8.5em
   image-shape: round
   links:
     - icon: mailbox
@@ -19,7 +21,115 @@ about:
     - icon: fingerprint
       text: ORCID
       href: https://orcid.org/0009-0003-3289-8548
-    - icon: 📝
+    - icon: file-earmark-text
       text: CV
-      href: CV_Chuqiao_SONG_Final.pdf  
+      href: CV_Chuqiao_SONG_Final.pdf
 ---
+
+::: {.hero-intro}
+Master's student working on computational modelling of language, behaviour, and brain data. My current work connects neural network models with human behavioural and neuroimaging evidence, with a focus on model interpretability, representational structure, and human-model alignment.
+:::
+
+::: {.pill-row}
+`Language & Cognition`
+
+`Computational Modelling`
+
+`Behavioural Data`
+
+`fMRI & RSA`
+:::
+
+## Research Focus
+
+I am building a computational modelling profile at the intersection of **language, cognition, and neuroimaging**. Across projects, I am interested in whether artificial models can account for **participant-level behaviour**, **response-time structure**, and **brain-relevant representations**, rather than only producing strong aggregate task accuracy.
+
+::: {.grid-two}
+::: {.panel-card}
+### Current Direction
+
+- Benchmarking computational models against human behavioural variation
+- Representational similarity analysis with multilingual language models
+- RNN modelling of auditory sequence processing, response time, and fMRI responses
+:::
+
+::: {.panel-card}
+### Working Style
+
+- Developing reproducible analysis and modelling pipelines in Python and R
+- Combining behavioural data, representational analysis, and neural modelling
+- Treating LLMs and RNNs as computational models for cognitive questions
+:::
+:::
+
+## Current Modelling Projects
+
+::: {.feature-grid}
+::: {.feature-card}
+### Benchmarking Human-Model Alignment
+
+I am developing benchmarking pipelines that evaluate whether computational models explain **human behavioural variation** rather than only final accuracy. This includes participant-level model selection, trial-level variance, response-time prediction, and comparisons with cognitive baselines where appropriate.
+:::
+
+::: {.feature-card}
+### LLM RSA for Multilingual Semantic Representation
+
+This project uses representational similarity analysis to test whether multilingual language models recover **cross-linguistic semantic structure**. I am especially interested in layer-wise representations, language-pair comparisons, form-versus-meaning controls, and the geometry of semantic spaces across languages.
+:::
+
+::: {.feature-card}
+### RNN Modelling of Behavioural and fMRI Data
+
+I am building recurrent neural network models for **auditory perception, predictive coding, and sequence decision-making** tasks. The broader goal is to model online sequence processing, derive trial-level RT readouts, inspect hidden-state dynamics, and evaluate alignment with behavioural and neural data.
+:::
+:::
+
+## Research Interests
+
+::: {.interest-list}
+- Computational modelling of language and cognition
+- Human-AI alignment in behavioural and neural representations
+- Multilingual semantic representation
+- RNN and LLM models as cognitive models
+- Representational similarity analysis
+- Behavioural and fMRI model fitting
+:::
+
+## Selected Output
+
+::: {.panel-card .publication-card}
+### Publication
+
+**Song, C., Chen, H., Gao, F., Qian, H., Geng, L., & Ye, X. (2025).**  
+*L2 conditionally facilitates L3 word recognition among Chinese-English-Spanish trilinguals.*  
+_International Journal of Multilingualism_, 1-19.  
+[Read the paper](publications/L2_primes_L3.pdf)
+:::
+
+## Tools I Use
+
+::: {.tool-grid}
+::: {.tool-card}
+### Programming
+
+Python, R
+:::
+
+::: {.tool-card}
+### Modelling
+
+PyTorch, Transformers, scikit-learn
+:::
+
+::: {.tool-card}
+### Analysis
+
+pandas, NumPy, SciPy, statsmodels, lme4
+:::
+
+::: {.tool-card}
+### Neuro / Representation
+
+RSA, encoding models, behavioural and fMRI analysis
+:::
+:::

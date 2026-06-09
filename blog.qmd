@@ -1,6 +1,38 @@
 ---
 title: "Blogs"
-editor: 
-  markdown: 
-    wrap: 72
+toc: false
 ---
+
+::: {.page-hero}
+## Research Notes
+
+I plan to use this page for short research notes on modelling ideas, reading reflections, analysis workflows, and technical decisions that emerge during ongoing projects.
+:::
+
+## Planned Topics
+
+::: {.grid-two}
+::: {.panel-card}
+### Modelling Notes
+
+- What should count as human-model alignment?
+- Trial-level evaluation beyond aggregate accuracy
+- Interpreting hidden states in recurrent models
+- Practical issues in multilingual RSA
+:::
+
+::: {.panel-card}
+### Workflow Notes
+
+- Reproducible behavioural analysis
+- Comparing cognitive and neural baselines
+- Visualization choices for representational analyses
+- Small tools for research pipelines
+:::
+:::
+
+## Coming Soon
+
+::: {.panel-card}
+Posts will be added here as project notes, reading summaries, and methods write-ups. The aim is to keep these posts concise, technical, and useful for documenting an evolving computational modelling profile.
+:::
