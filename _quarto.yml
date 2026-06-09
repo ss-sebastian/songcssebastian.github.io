@@ -5,9 +5,9 @@ project:
 website:
   page-navigation: true
   title: "Chuqiao (Sebastian) Song"
-  site-url: https://songcssebastian.github.io
+  site-url: https://ss-sebastian.github.io
   favicon: images/IMEG_1309.png
-  repo-url: https://github.com/ss-sebastian/songcssebastian.github.io
+  repo-url: https://github.com/ss-sebastian/ss-sebastian.github.io
   repo-actions: [edit, issue]
   
   page-footer:
