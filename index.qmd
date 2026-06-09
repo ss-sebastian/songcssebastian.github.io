@@ -7,6 +7,16 @@ toc: false
 ## Master's student | Computational modelling of language, behaviour, and brain data
 
 I work at the intersection of **language, cognition, and neuroimaging**, using computational models to connect artificial representations with human behavioural and neural data. My current focus is on behavioural benchmarking, multilingual semantic representation, and recurrent neural modelling of brain and behaviour.
+
+::: {.hero-meta}
+`Computational Modelling`
+
+`Language & Cognition`
+
+`Behavioural Data`
+
+`fMRI / RSA`
+:::
 :::
 
 ::: {.pill-row}
@@ -22,6 +32,10 @@ I work at the intersection of **language, cognition, and neuroimaging**, using c
 ::: {.grid-two}
 ::: {.panel-card}
 ![](images/IMG_1309.jpg){.img-fluid .profile-image}
+
+::: {.photo-note}
+Current base: Donostia / San Sebastian
+:::
 :::
 
 ::: {.panel-card}
