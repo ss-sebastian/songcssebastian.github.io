@@ -112,51 +112,22 @@ code {
   margin-bottom: 1.5rem;
 }
 
-.quarto-about-trestles {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(247, 243, 234, 0.88));
-  border: 1px solid rgba(216, 222, 234, 0.9);
+.page-hero {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(247, 243, 234, 0.84));
+  border: 1px solid rgba(216, 222, 234, 0.95);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-soft);
-  padding: 2rem 2rem 1.6rem;
+  padding: 1.7rem 1.6rem 1.4rem;
+  margin-bottom: 1.75rem;
 }
 
-.quarto-about-trestles .about-image {
-  border: 4px solid rgba(255, 255, 255, 0.95);
-  box-shadow: 0 14px 28px rgba(29, 36, 48, 0.14);
+.page-hero h2 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
 }
 
-.quarto-about-trestles .about-title {
-  font-family: 'Source Serif 4', serif;
-  font-size: clamp(2.4rem, 4vw, 3.7rem);
-  line-height: 1.05;
-}
-
-.quarto-about-trestles .about-description {
-  margin-top: 0.4rem;
-  font-size: 0.96rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: $gold;
-  font-weight: 700;
-}
-
-.quarto-about-trestles .about-links {
-  margin-top: 1.25rem;
-}
-
-.quarto-about-trestles .about-link {
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid rgba(216, 222, 234, 0.85);
-  border-radius: 999px;
-  padding: 0.5rem 0.9rem;
-  margin: 0.35rem 0.45rem 0 0;
-}
-
-.hero-intro {
-  max-width: 52rem;
-  font-size: 1.12rem;
-  color: $ink-700;
-  margin: 1rem 0 1.75rem;
+.page-hero p:last-child {
+  margin-bottom: 0;
 }
 
 .pill-row {
@@ -236,6 +207,15 @@ code {
   margin-bottom: 0;
 }
 
+.profile-image {
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(29, 36, 48, 0.14);
+}
+
 .page-footer {
   border-top: 1px solid rgba(216, 222, 234, 0.8);
   background: rgba(255, 253, 248, 0.75);
@@ -259,12 +239,8 @@ code {
     font-size: 16px;
   }
 
-  .quarto-about-trestles {
+  .page-hero {
     padding: 1.4rem 1rem 1.2rem;
     border-radius: 22px;
-  }
-
-  .hero-intro {
-    font-size: 1rem;
   }
 }

@@ -6,7 +6,7 @@ toc: false
 ::: {.page-hero}
 ## Publications and Work in Progress
 
-This page collects selected publications and current research directions. As my computational modelling work develops, I will expand this section with posters, preprints, and thesis-related outputs.
+This page collects selected publications and current research directions. As my computational modelling work develops, I will add posters, preprints, thesis-related outputs, and project-linked research materials here.
 :::
 
 ## Selected Publication
@@ -20,7 +20,7 @@ _International Journal of Multilingualism_, 1-19.
 [DOI](https://doi.org/10.1080/14790718.2025.2600536) · [PDF](publications/L2_primes_L3.pdf)
 :::
 
-## In Progress
+## Research Pipeline
 
 ::: {.grid-two}
 ::: {.panel-card}
@@ -32,7 +32,7 @@ _International Journal of Multilingualism_, 1-19.
 :::
 
 ::: {.panel-card}
-### To Add
+### Planned Additions
 
 - Master's thesis
 - Conference posters

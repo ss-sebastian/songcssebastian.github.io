@@ -60,14 +60,14 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "This page collects selected publications and current research directions. As my computational modelling work develops, I will expand this section with posters, preprints, and thesis-related outputs."
+    "text": "This page collects selected publications and current research directions. As my computational modelling work develops, I will add posters, preprints, thesis-related outputs, and project-linked research materials here."
   },
   {
     "objectID": "publications.html#publications-and-work-in-progress",
     "href": "publications.html#publications-and-work-in-progress",
     "title": "Publications",
     "section": "",
-    "text": "This page collects selected publications and current research directions. As my computational modelling work develops, I will expand this section with posters, preprints, and thesis-related outputs."
+    "text": "This page collects selected publications and current research directions. As my computational modelling work develops, I will add posters, preprints, thesis-related outputs, and project-linked research materials here."
   },
   {
     "objectID": "publications.html#selected-publication",
@@ -77,11 +77,11 @@
     "text": "Selected Publication\n\nJournal Article\nSong, C., Chen, H., Gao, F., Qian, H., Geng, L., & Ye, X. (2025).\nL2 conditionally facilitates L3 word recognition among Chinese-English-Spanish trilinguals.\nInternational Journal of Multilingualism, 1-19.\nDOI · PDF"
   },
   {
-    "objectID": "publications.html#in-progress",
-    "href": "publications.html#in-progress",
+    "objectID": "publications.html#research-pipeline",
+    "href": "publications.html#research-pipeline",
     "title": "Publications",
-    "section": "In Progress",
-    "text": "In Progress\n\n\nModelling Projects\n\nBenchmarking human-model alignment in behavioural tasks\nLLM RSA for multilingual semantic representation\nRNN modelling of behavioural and fMRI responses\n\n\n\nTo Add\n\nMaster’s thesis\nConference posters\nPreprints and working papers\nProject reports or reproducible analysis repositories"
+    "section": "Research Pipeline",
+    "text": "Research Pipeline\n\n\nModelling Projects\n\nBenchmarking human-model alignment in behavioural tasks\nLLM RSA for multilingual semantic representation\nRNN modelling of behavioural and fMRI responses\n\n\n\nPlanned Additions\n\nMaster’s thesis\nConference posters\nPreprints and working papers\nProject reports or reproducible analysis repositories"
   },
   {
     "objectID": "codes.html",
@@ -158,7 +158,14 @@
     "href": "index.html",
     "title": "Chuqiao (Sebastian) Song",
     "section": "",
-    "text": "Master’s student working on computational modelling of language, behaviour, and brain data. My current work connects neural network models with human behavioural and neuroimaging evidence, with a focus on model interpretability, representational structure, and human-model alignment."
+    "text": "I work at the intersection of language, cognition, and neuroimaging, using computational models to connect artificial representations with human behavioural and neural data. My current focus is on behavioural benchmarking, multilingual semantic representation, and recurrent neural modelling of brain and behaviour."
+  },
+  {
+    "objectID": "index.html#masters-student-computational-modelling-of-language-behaviour-and-brain-data",
+    "href": "index.html#masters-student-computational-modelling-of-language-behaviour-and-brain-data",
+    "title": "Chuqiao (Sebastian) Song",
+    "section": "",
+    "text": "I work at the intersection of language, cognition, and neuroimaging, using computational models to connect artificial representations with human behavioural and neural data. My current focus is on behavioural benchmarking, multilingual semantic representation, and recurrent neural modelling of brain and behaviour."
   },
   {
     "objectID": "index.html#research-focus",

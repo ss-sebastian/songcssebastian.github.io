@@ -1,33 +1,12 @@
 ---
 title: "Chuqiao (Sebastian) Song"
-description: "Master's student | Computational modelling of language, behaviour, and brain data"
-image: images/IMG_1309.jpg
 toc: false
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 8.5em
-  image-shape: round
-  links:
-    - icon: mailbox
-      text: songchuqiao23@gmail.com
-      href: mailto:songchuqiao23@gmail.com
-    - icon: github
-      text: ss-sebastian
-      href: https://github.com/ss-sebastian
-    - icon: book
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=WkLFQc0AAAAJ&hl=en
-    - icon: fingerprint
-      text: ORCID
-      href: https://orcid.org/0009-0003-3289-8548
-    - icon: file-earmark-text
-      text: CV
-      href: CV_Chuqiao_SONG_Final.pdf
 ---
 
-::: {.hero-intro}
-Master's student working on computational modelling of language, behaviour, and brain data. My current work connects neural network models with human behavioural and neuroimaging evidence, with a focus on model interpretability, representational structure, and human-model alignment.
+::: {.page-hero}
+## Master's student | Computational modelling of language, behaviour, and brain data
+
+I work at the intersection of **language, cognition, and neuroimaging**, using computational models to connect artificial representations with human behavioural and neural data. My current focus is on behavioural benchmarking, multilingual semantic representation, and recurrent neural modelling of brain and behaviour.
 :::
 
 ::: {.pill-row}
@@ -38,6 +17,22 @@ Master's student working on computational modelling of language, behaviour, and 
 `Behavioural Data`
 
 `fMRI & RSA`
+:::
+
+::: {.grid-two}
+::: {.panel-card}
+![](images/IMG_1309.jpg){.img-fluid .profile-image}
+:::
+
+::: {.panel-card}
+### Contact and Links
+
+- Email: [songchuqiao23@gmail.com](mailto:songchuqiao23@gmail.com)
+- GitHub: [ss-sebastian](https://github.com/ss-sebastian)
+- Google Scholar: [Profile](https://scholar.google.com/citations?user=WkLFQc0AAAAJ&hl=en)
+- ORCID: [0009-0003-3289-8548](https://orcid.org/0009-0003-3289-8548)
+- CV: [Download CV](CV_Chuqiao_SONG_Final.pdf)
+:::
 :::
 
 ## Research Focus
